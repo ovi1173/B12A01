@@ -4,6 +4,8 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    
+    background-color: aliceblue;
 }
 /* navigation section styles */
 nav{
@@ -109,6 +111,7 @@ section img{
 
 .sec-3-container{
     margin-top: 130px;
+    
 }
 .star-icon{
     height: 15px;
@@ -150,7 +153,7 @@ section img{
     margin-top: 2px;
 }
 .card-container{
-    background-color:ghostwhite;
+    background-color:white;
     max-width: fit-content;
     padding: 15px 30px 10px 15px;
     border-radius: 12px;
@@ -193,11 +196,32 @@ input{
 .form-btn{
     color: white;
     background-color: #4E47FF;
-    padding: 15px 150px;
+    padding: 15px 147px;
     
     font-weight: 600;
     border: none;
     border-radius: 8px;
     margin-top: 5px;
 
+}
+.form-btn:hover{
+    color: black;
+    background-color: orange;
+}
+
+
+/* footer related style */
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.footer-links a{
+     text-decoration: none;
+     color: dimgray;
+}
+.footer-container{
+    text-align: center;
+    color: dimgray;
 }
