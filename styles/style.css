@@ -4,7 +4,6 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    
     background-color: aliceblue;
 }
 /* navigation section styles */
@@ -196,11 +195,10 @@ input{
 .form-btn{
     color: white;
     background-color: #4E47FF;
-    padding: 15px 147px;
     
+    width:370px;
     font-weight: 600;
-    border: none;
-    border-radius: 8px;
+    height: 40px;
     margin-top: 5px;
 
 }
