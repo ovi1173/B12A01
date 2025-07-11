@@ -68,3 +68,33 @@ section img{
     font-size: 18px;
     color: darkgray;
 }
+
+.sec-2-container{
+  background-color: lavender;
+  border-radius: 12px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 20px;
+}
+.sec-2-content{
+    display: flex;
+    justify-content: space-around;
+}
+.sec-2-num{
+    font-size: 60px;
+    color: #4E47FF;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+.sec-2-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.sec-2-container p{
+    color: darkgray;
+}
